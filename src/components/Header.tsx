@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <div className="font-bold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            DevHire
+            SkillMesh
           </div>
           <nav className="hidden md:flex space-x-6">
             <a href="#browse" className="text-sm font-medium hover:text-primary transition-colors">

@@ -10,27 +10,27 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Hire Top{" "}
+                Hire{" "}
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Developers
+                  Smarter
                 </span>
-                <br />
-                & Dev Teams
+                ,<br />
+                Work Better!
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Connect with world-class freelance developers and complete development teams. 
-                Scale your projects with the right talent.
+                One click to hire your dream team—no messy chats, no high fees. 
+                Lower costs, better matching, built-in collaboration tools.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="lg" className="flex-1 sm:flex-none">
                 <User className="w-5 h-5" />
-                Hire Individuals
+                Find Freelancers
               </Button>
               <Button variant="secondary" size="lg" className="flex-1 sm:flex-none">
                 <Users className="w-5 h-5" />
-                Hire Teams
+                Build Dream Team
               </Button>
             </div>
 

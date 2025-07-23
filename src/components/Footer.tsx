@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="font-bold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              DevHire
+              SkillMesh
             </div>
             <p className="text-muted-foreground text-sm max-w-xs">
-              Connect with world-class developers and development teams. Build amazing products together.
+              The future of freelance teamwork. Hire smarter, work better with one-click team building.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="sm">
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © 2024 DevHire. All rights reserved.
+            © 2024 SkillMesh. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>

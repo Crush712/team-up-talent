@@ -34,10 +34,10 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            How DevHire Works
+            The Future of Freelance Teamwork
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From finding talent to project completion, we make hiring developers simple and secure.
+            For startups, businesses & freelancers who want less stress and more results.
           </p>
         </div>
 
@@ -67,13 +67,13 @@ const HowItWorks = () => {
 
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h3 className="text-2xl font-bold mb-6">Why Choose DevHire?</h3>
+            <h3 className="text-2xl font-bold mb-6">Why Choose SkillMesh?</h3>
             <div className="space-y-4">
               {[
-                "Pre-vetted talent with proven track records",
-                "Secure payments with milestone protection",
-                "24/7 support throughout your project",
-                "Quality guarantee on all deliverables"
+                "Smart AI matching connects you instantly",
+                "Built-in collaboration tools for seamless work",
+                "50% lower costs than traditional platforms",
+                "One-click hiring with no messy chats"
               ].map((benefit, index) => (
                 <div key={index} className="flex items-start space-x-3">
                   <CheckCircle className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
@@ -88,16 +88,16 @@ const HowItWorks = () => {
               <h4 className="text-xl font-semibold">Ready to get started?</h4>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-primary">5 min</div>
-                  <div className="text-sm text-muted-foreground">Setup time</div>
+                  <div className="text-2xl font-bold text-primary">1 Click</div>
+                  <div className="text-sm text-muted-foreground">To hire</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-secondary">24 hrs</div>
-                  <div className="text-sm text-muted-foreground">First response</div>
+                  <div className="text-2xl font-bold text-secondary">50% Less</div>
+                  <div className="text-sm text-muted-foreground">Costs</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent">0%</div>
-                  <div className="text-sm text-muted-foreground">Platform fee*</div>
+                  <div className="text-2xl font-bold text-accent">No Fees</div>
+                  <div className="text-sm text-muted-foreground">No chats</div>
                 </div>
               </div>
               <p className="text-xs text-muted-foreground">
